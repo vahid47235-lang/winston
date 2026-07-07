@@ -25,6 +25,11 @@ export function ProductCard({ product, index = 0 }: { product: Product; index?: 
       />
       <h3 className="font-display mt-8 text-xl text-paper">{product.name[locale]}</h3>
       <p className="mt-2 text-sm text-paper/60">{product.tagline[locale]}</p>
+      {product.price && (
+        <span className="mt-3 rounded-full border border-gold/30 bg-gold/10 px-4 py-1 text-xs text-gold">
+          {product.price[locale]}
+        </span>
+      )}
       <Link
         href={{ pathname: "/products/[slug]", params: { slug: product.slug } }}
         className="mt-6 text-sm tracking-wide text-gold underline-offset-4 transition hover:underline"

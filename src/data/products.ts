@@ -1,4 +1,4 @@
-export type ProductLine = "classic" | "xs" | "xstyle" | "nova";
+export type ProductLine = "classic" | "xs" | "xstyle" | "nova" | "compact";
 
 export type Product = {
   slug: string;
@@ -8,12 +8,14 @@ export type Product = {
   name: { fa: string; en: string };
   tagline: { fa: string; en: string };
   description: { fa: string; en: string };
+  price?: { fa: string; en: string };
   specs: { label: { fa: string; en: string }; value: { fa: string; en: string } }[];
   featured?: boolean;
 };
 
 export const productLines: Record<ProductLine, { name: { fa: string; en: string } }> = {
   classic: { name: { fa: "وینستون کلاسیک", en: "Winston Classic" } },
+  compact: { name: { fa: "وینستون کامپکت", en: "Winston Compact" } },
   xs: { name: { fa: "وینستون ایکس‌اس", en: "Winston XS" } },
   xstyle: { name: { fa: "وینستون ایکس استایل", en: "Winston X Style" } },
   nova: { name: { fa: "وینستون نُوا", en: "Winston Nova" } },
@@ -73,6 +75,47 @@ export const products: Product[] = [
       { label: { fa: "فیلتر", en: "Filter" }, value: { fa: "استاندارد", en: "Standard" } },
     ],
     featured: true,
+  },
+  {
+    slug: "winston-compact-blue",
+    line: "compact",
+    packColor: "#1857c9",
+    accent: "#ffffff",
+    name: { fa: "وینستون کامپکت آبی", en: "Winston Compact Blue" },
+    tagline: { fa: "فرمت فشرده، طعم متعادل", en: "Compact format, balanced taste" },
+    description: {
+      fa: "وینستون کامپکت آبی در فرمتی فشرده‌تر عرضه می‌شود و با فیلتر زغالی ایرسل، ماندگاری بوی دود در اطراف مصرف‌کننده را کاهش می‌دهد.",
+      en: "Winston Compact Blue comes in a more compact format and uses an Aircell charcoal filter to reduce lingering smoke smell around the smoker.",
+    },
+    price: { fa: "۱۲۰,۰۰۰ تومان", en: "120,000 Toman" },
+    specs: [
+      { label: { fa: "فرمت", en: "Format" }, value: { fa: "کامپکت", en: "Compact" } },
+      { label: { fa: "فیلتر", en: "Filter" }, value: { fa: "فیلتر زغالی ایرسل", en: "Aircell Charcoal Filter" } },
+      { label: { fa: "نیکوتین", en: "Nicotine" }, value: { fa: "۰.۵ میلی‌گرم", en: "0.5 mg" } },
+      { label: { fa: "قطران", en: "Tar" }, value: { fa: "۶ میلی‌گرم", en: "6 mg" } },
+      { label: { fa: "ویژگی", en: "Feature" }, value: { fa: "LSS — ماندگاری کمتر بوی دود در اطراف شما", en: "LSS — less lingering smoke smell around you" } },
+    ],
+    featured: true,
+  },
+  {
+    slug: "winston-compact-silver",
+    line: "compact",
+    packColor: "#a9c6de",
+    accent: "#1a3a6b",
+    name: { fa: "وینستون کامپکت نقره‌ای", en: "Winston Compact Silver" },
+    tagline: { fa: "فرمت فشرده، طعم ملایم", en: "Compact format, smoother taste" },
+    description: {
+      fa: "وینستون کامپکت نقره‌ای طعمی ملایم‌تر را در همان فرمت فشرده و فیلتر زغالی ایرسل خانواده کامپکت ارائه می‌دهد.",
+      en: "Winston Compact Silver offers a smoother taste within the same compact format and Aircell charcoal filter as the rest of the Compact family.",
+    },
+    price: { fa: "۱۲۰,۰۰۰ تومان", en: "120,000 Toman" },
+    specs: [
+      { label: { fa: "فرمت", en: "Format" }, value: { fa: "کامپکت", en: "Compact" } },
+      { label: { fa: "فیلتر", en: "Filter" }, value: { fa: "فیلتر زغالی ایرسل", en: "Aircell Charcoal Filter" } },
+      { label: { fa: "نیکوتین", en: "Nicotine" }, value: { fa: "۰.۳ میلی‌گرم", en: "0.3 mg" } },
+      { label: { fa: "قطران", en: "Tar" }, value: { fa: "۴ میلی‌گرم", en: "4 mg" } },
+      { label: { fa: "ویژگی", en: "Feature" }, value: { fa: "LSS — ماندگاری کمتر بوی دود در اطراف شما", en: "LSS — less lingering smoke smell around you" } },
+    ],
   },
   {
     slug: "winston-xs-black",
@@ -142,6 +185,27 @@ export const products: Product[] = [
       { label: { fa: "تعداد نخ", en: "Count" }, value: { fa: "۲۰ نخ", en: "20 cigarettes" } },
       { label: { fa: "فیلتر", en: "Filter" }, value: { fa: "استاندارد", en: "Standard" } },
     ],
+  },
+  {
+    slug: "winston-nova-blue",
+    line: "nova",
+    packColor: "#e4d9bd",
+    accent: "#1c3f94",
+    name: { fa: "وینستون نُوا آبی", en: "Winston Nova Blue" },
+    tagline: { fa: "کینگ سایز، طعم متعادل", en: "King size, balanced taste" },
+    description: {
+      fa: "وینستون نُوا آبی در فرمت کینگ سایز عرضه می‌شود و با فیلتر زغالی ایرسل، ماندگاری بوی دود در اطراف مصرف‌کننده را کاهش می‌دهد.",
+      en: "Winston Nova Blue comes in a king size format and uses an Aircell charcoal filter to reduce lingering smoke smell around the smoker.",
+    },
+    price: { fa: "۱۲۰,۰۰۰ تومان", en: "120,000 Toman" },
+    specs: [
+      { label: { fa: "فرمت", en: "Format" }, value: { fa: "کینگ سایز", en: "King Size" } },
+      { label: { fa: "فیلتر", en: "Filter" }, value: { fa: "فیلتر زغالی ایرسل", en: "Aircell Charcoal Filter" } },
+      { label: { fa: "نیکوتین", en: "Nicotine" }, value: { fa: "۰.۵ میلی‌گرم", en: "0.5 mg" } },
+      { label: { fa: "قطران", en: "Tar" }, value: { fa: "۶ میلی‌گرم", en: "6 mg" } },
+      { label: { fa: "ویژگی", en: "Feature" }, value: { fa: "LSS — ماندگاری کمتر بوی دود در اطراف شما", en: "LSS — less lingering smoke smell around you" } },
+    ],
+    featured: true,
   },
   {
     slug: "winston-nova-indigo",

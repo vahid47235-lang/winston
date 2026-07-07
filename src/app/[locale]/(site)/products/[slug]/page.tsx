@@ -59,6 +59,11 @@ export default async function ProductDetailPage({
               {product.name[l]}
             </h1>
             <p className="mt-3 text-lg text-gold">{product.tagline[l]}</p>
+            {product.price && (
+              <span className="mt-4 inline-block rounded-full border border-gold/30 bg-gold/10 px-5 py-2 text-sm text-gold">
+                {product.price[l]}
+              </span>
+            )}
             <p className="mt-6 leading-relaxed text-paper/65">{product.description[l]}</p>
 
             <h2 className="font-display mt-10 text-lg text-paper">{t("specs")}</h2>

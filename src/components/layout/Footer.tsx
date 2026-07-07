@@ -6,6 +6,7 @@ import { Container } from "../ui/Container";
 export function Footer() {
   const t = useTranslations("footer");
   const nav = useTranslations("nav");
+  const counterfeit = useTranslations("counterfeit");
 
   return (
     <footer className="border-t border-white/10 bg-black">
@@ -43,6 +44,7 @@ export function Footer() {
               <li><Link href="/legal/terms" className="text-paper/70 hover:text-gold">{t("legal.terms")}</Link></li>
               <li><Link href="/legal/cookies" className="text-paper/70 hover:text-gold">{t("legal.cookies")}</Link></li>
               <li><Link href="/legal/age-verification" className="text-paper/70 hover:text-gold">{t("legal.age")}</Link></li>
+              <li><Link href="/counterfeit" className="text-paper/70 hover:text-gold">{counterfeit("title")}</Link></li>
             </ul>
           </div>
 

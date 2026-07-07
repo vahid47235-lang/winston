@@ -56,24 +56,24 @@ export const news: NewsArticle[] = [
     },
   },
   {
-    slug: "new-winston-xs-purple-launch",
+    slug: "winston-nova-launch",
     date: "2025-11-20",
     title: {
-      fa: "معرفی وینستون ایکس‌اس بنفش",
-      en: "Introducing Winston XS Purple",
+      fa: "معرفی خانواده وینستون نُوا",
+      en: "Introducing the Winston Nova Family",
     },
     excerpt: {
-      fa: "جدیدترین عضو خانواده وینستون با فرمت فشرده و طراحی مدرن به مجموعه اضافه شد.",
-      en: "The newest addition to the Winston family arrives with a compact format and modern design.",
+      fa: "جدیدترین خانواده محصولات وینستون با طراحی به‌روزشده به مجموعه اضافه شد.",
+      en: "The newest Winston product family arrives with an updated design to the collection.",
     },
     body: {
       fa: [
-        "وینستون ایکس‌اس بنفش با هدف ارائه تجربه‌ای متفاوت به مجموعه محصولات وینستون اضافه شده است.",
-        "این محصول با همان استانداردهای کیفی وینستون تولید و توزیع می‌شود.",
+        "خانواده وینستون نُوا با هدف ارائه طراحی به‌روزتر و تنوع بیشتر به مجموعه محصولات وینستون اضافه شده است.",
+        "این محصولات با همان استانداردهای کیفی وینستون تولید و توزیع می‌شوند.",
       ],
       en: [
-        "Winston XS Purple joins the collection with the aim of offering a distinct experience.",
-        "The product is manufactured and distributed to the same quality standards as every Winston line.",
+        "The Winston Nova family joins the collection with an updated design language and broader variety.",
+        "These products are manufactured and distributed to the same quality standards as every Winston line.",
       ],
     },
   },

@@ -200,6 +200,59 @@
       }
     ]
   },
+  "counterfeit": {
+    "eyebrow": "Consumer Awareness",
+    "title": "Counterfeit & Illicit Trade",
+    "intro": "Knowing the difference between a genuine product and a counterfeit or smuggled one helps protect consumers from further harm.",
+    "points": [
+      "Counterfeit and smuggled products are manufactured without any oversight or defined standards.",
+      "Legally sold tobacco packaging carries specific, verifiable markings.",
+      "Trade in counterfeit and smuggled products causes irreversible damage to the national economy.",
+      "This illegal trade destroys large numbers of legitimate jobs."
+    ],
+    "ctaIdentify": "How to identify a genuine product",
+    "ctaProducts": "The Winston family of products",
+    "howToIdentify": {
+      "eyebrow": "Consumer Awareness",
+      "title": "How to identify a genuine tobacco product",
+      "intro": "Before buying, check the packaging for these markings.",
+      "items": [
+        {
+          "title": "Barcode & tracking code",
+          "body": "A 2D barcode and tracking code printed or labeled on the pack, verifiable through the national trade system."
+        },
+        {
+          "title": "Product & manufacturer details",
+          "body": "Product specifications, manufacturer name, and a statement confirming authorization for sale in the domestic market."
+        },
+        {
+          "title": "Approved graphic health warning",
+          "body": "An approved graphic health warning covering a mandated majority of both sides of the pack."
+        },
+        {
+          "title": "Identification code",
+          "body": "An identification code verifiable through the national trade system, confirming domestic manufacture."
+        },
+        {
+          "title": "Production date & price",
+          "body": "Production date and consumer price printed on the pack."
+        }
+      ],
+      "cta": "See examples of counterfeit products",
+      "back": "Back"
+    },
+    "examples": {
+      "eyebrow": "Warning",
+      "title": "Examples of Counterfeit & Smuggled Products",
+      "warningBanner": "Warning: Counterfeit",
+      "points": [
+        "These are examples of counterfeit and smuggled products manufactured without any legal oversight or standards.",
+        "Purchasing or using products like these is strongly discouraged.",
+        "Under Iranian law, buying, selling, or distributing smuggled or counterfeit tobacco products is illegal."
+      ],
+      "back": "Back"
+    }
+  },
   "legal": {
     "privacy": {
       "title": "Privacy Policy",

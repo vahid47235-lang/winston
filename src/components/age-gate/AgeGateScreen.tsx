@@ -4,6 +4,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import { ageGateConfig } from "@/lib/ageGate";
+import { WinstonLogo } from "@/components/layout/WinstonLogo";
 
 function isSafeRedirectTarget(target: string): boolean {
   if (!target.startsWith("/")) return false;
@@ -60,9 +61,7 @@ export function AgeGateScreen({
         transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
         className="relative z-10 w-full max-w-md text-center"
       >
-        <span className="font-display select-none text-2xl font-semibold tracking-[0.3em] text-white">
-          WINSTON
-        </span>
+        <WinstonLogo className="justify-center" />
 
         <h1 className="font-display mt-8 text-2xl text-paper md:text-3xl">{t("title")}</h1>
         <p className="mt-4 text-sm leading-relaxed text-paper/65">{t("description")}</p>

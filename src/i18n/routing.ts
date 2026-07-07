@@ -19,6 +19,15 @@ export const routing = defineRouting({
     "/news/[slug]": { fa: "/news/[slug]", en: "/news/[slug]" },
     "/contact": { fa: "/contact", en: "/contact" },
     "/faq": { fa: "/faq", en: "/faq" },
+    "/counterfeit": { fa: "/counterfeit", en: "/counterfeit" },
+    "/counterfeit/how-to-identify": {
+      fa: "/counterfeit/how-to-identify",
+      en: "/counterfeit/how-to-identify",
+    },
+    "/counterfeit/examples": {
+      fa: "/counterfeit/examples",
+      en: "/counterfeit/examples",
+    },
     "/legal/privacy": { fa: "/legal/privacy", en: "/legal/privacy" },
     "/legal/terms": { fa: "/legal/terms", en: "/legal/terms" },
     "/legal/cookies": { fa: "/legal/cookies", en: "/legal/cookies" },

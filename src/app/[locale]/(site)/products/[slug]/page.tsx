@@ -39,7 +39,9 @@ export default async function ProductDetailPage({
   if (!product) notFound();
 
   const t = await getTranslations({ locale, namespace: "products" });
-  const related = products.filter((p) => p.slug !== slug).slice(0, 3);
+  const sameLine = products.filter((p) => p.slug !== slug && p.line === product.line);
+  const others = products.filter((p) => p.slug !== slug && p.line !== product.line);
+  const related = [...sameLine, ...others].slice(0, 3);
 
   return (
     <>

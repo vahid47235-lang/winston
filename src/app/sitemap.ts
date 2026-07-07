@@ -13,6 +13,8 @@ const staticPaths = [
   "/news",
   "/contact",
   "/faq",
+  "/counterfeit",
+  "/counterfeit/how-to-identify",
   "/legal/privacy",
   "/legal/terms",
   "/legal/cookies",

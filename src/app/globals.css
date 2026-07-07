@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+:root {
+  --color-ink: #0a0a0a;
+  --color-charcoal: #151515;
+  --color-graphite: #232323;
+  --color-paper: #f7f5f2;
+  --color-winston-red: #c8102e;
+  --color-winston-red-dim: #8f0b21;
+  --color-gold: #c9a86a;
+  --color-gold-soft: #e4d3ab;
+  --color-line: rgba(255, 255, 255, 0.1);
+}
+
+@theme inline {
+  --color-ink: var(--color-ink);
+  --color-charcoal: var(--color-charcoal);
+  --color-graphite: var(--color-graphite);
+  --color-paper: var(--color-paper);
+  --color-winston-red: var(--color-winston-red);
+  --color-winston-red-dim: var(--color-winston-red-dim);
+  --color-gold: var(--color-gold);
+  --color-gold-soft: var(--color-gold-soft);
+
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+  --font-display-fa: var(--font-body-fa);
+  --font-body-fa: var(--font-body-fa);
+
+  --animate-fade-up: fade-up 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
+  --animate-fade-in: fade-in 1s ease both;
+
+  @keyframes fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(24px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-ink);
+  color: var(--color-paper);
+}
+
+[dir="rtl"] body {
+  font-family: var(--font-body-fa), var(--font-body), sans-serif;
+}
+[dir="ltr"] body {
+  font-family: var(--font-body), sans-serif;
+}
+
+.font-display {
+  font-family: var(--font-display), sans-serif;
+}
+[dir="rtl"] .font-display {
+  font-family: var(--font-display-fa), var(--font-display), sans-serif;
+}
+
+::selection {
+  background: var(--color-winston-red);
+  color: white;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.gold-divider {
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--color-gold),
+    transparent
+  );
+  height: 1px;
+}
+
+.glass {
+  background: rgba(21, 21, 21, 0.6);
+  backdrop-filter: blur(16px) saturate(140%);
+  -webkit-backdrop-filter: blur(16px) saturate(140%);
+}

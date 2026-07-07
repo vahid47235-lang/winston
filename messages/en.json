@@ -1,0 +1,226 @@
+{
+  "meta": {
+    "siteName": "Winston Iran",
+    "tagline": "For those who choose more."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Winston",
+    "brandStory": "Brand Story",
+    "products": "Products",
+    "news": "News & Articles",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "menu": "Menu",
+    "close": "Close",
+    "language": "Language"
+  },
+  "footer": {
+    "warning": "This product contains nicotine, which is a highly addictive substance. Not for sale to persons under 18. This site is intended solely for adults of legal smoking age.",
+    "sections": {
+      "explore": "Explore",
+      "legal": "Legal",
+      "connect": "Connect"
+    },
+    "legal": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Use",
+      "cookies": "Cookie Policy",
+      "age": "Age Verification Policy"
+    },
+    "rights": "All rights reserved.",
+    "disclaimer": "Winston is a registered trademark. This is an unofficial, illustrative redesign concept and is not affiliated with or endorsed by British American Tobacco."
+  },
+  "ageGate": {
+    "title": "Age Verification",
+    "description": "This website contains information about tobacco products and is intended exclusively for adults of legal smoking age in Iran.",
+    "legalNotice": "By entering this website, you confirm that you are at least 18 years old.",
+    "checkboxLabel": "I confirm I have read the above and am of legal smoking age.",
+    "primaryButton": "I am 18 or Older",
+    "secondaryButton": "Leave Website"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Winston Iran",
+      "title": "Crafted for the moment that matters.",
+      "subtitle": "Since 1954, Winston has stood for uncompromising quality and authentic character. Discover the collection, the story, and the standard behind the red pack.",
+      "cta": "Explore the collection",
+      "secondaryCta": "Our story"
+    },
+    "pillars": {
+      "title": "The Winston standard",
+      "items": [
+        {
+          "title": "Quality Leaf",
+          "body": "Selected tobaccos, blended with precision for a full, balanced character in every pack."
+        },
+        {
+          "title": "Iconic Design",
+          "body": "A pack silhouette recognised worldwide — bold, confident, unmistakably Winston."
+        },
+        {
+          "title": "Global Heritage",
+          "body": "Seven decades of craftsmanship, from the original Winston-Salem blend to today's collection."
+        }
+      ]
+    },
+    "products": {
+      "title": "The Collection",
+      "subtitle": "Every line, one standard.",
+      "cta": "View all products"
+    },
+    "story": {
+      "eyebrow": "Brand Story",
+      "title": "A name built on character.",
+      "body": "Winston was born from a simple idea: never compromise on quality. That principle still defines every leaf we select and every pack we finish.",
+      "cta": "Read the full story"
+    },
+    "news": {
+      "title": "News & Articles",
+      "cta": "View all"
+    },
+    "legalNote": "Smoking causes cancer, heart disease, and emphysema. This content is intended for adults of legal smoking age only."
+  },
+  "about": {
+    "eyebrow": "About Winston",
+    "title": "A global name, an Iranian standard.",
+    "intro": "Winston has been part of the global tobacco landscape since 1954, distributed in Iran under license with the same commitment to quality that defines the brand worldwide.",
+    "sections": [
+      {
+        "title": "Our Heritage",
+        "body": "Founded in Winston-Salem, North Carolina, the Winston name has represented bold, honest tobacco character for generations. Every market the brand enters inherits that same standard."
+      },
+      {
+        "title": "Quality Commitment",
+        "body": "From leaf selection to final packaging, every stage of production follows strict quality protocols to ensure consistency across every pack sold."
+      },
+      {
+        "title": "Responsible Marketing",
+        "body": "Winston Iran markets exclusively to adults of legal smoking age and supports clear, honest communication about the risks of tobacco use."
+      }
+    ],
+    "statsTitle": "By the numbers",
+    "stats": [
+      { "value": "1954", "label": "Year founded" },
+      { "value": "70+", "label": "Countries" },
+      { "value": "1", "label": "Uncompromising standard" }
+    ]
+  },
+  "brandStory": {
+    "eyebrow": "Brand Story",
+    "title": "The character behind the pack.",
+    "intro": "Every brand has a story. Winston's is about consistency, confidence, and a refusal to cut corners.",
+    "chapters": [
+      {
+        "year": "1954",
+        "title": "The Beginning",
+        "body": "Winston launches in the United States, quickly becoming known for its distinctive, full-bodied character."
+      },
+      {
+        "year": "1970s–1990s",
+        "title": "Going Global",
+        "body": "The brand expands across international markets, adapting to local preferences while preserving its core identity."
+      },
+      {
+        "year": "Today",
+        "title": "The Modern Collection",
+        "body": "Winston continues to evolve its portfolio, offering a range of blends and formats built on the same founding principle: quality without compromise."
+      }
+    ]
+  },
+  "products": {
+    "eyebrow": "The Collection",
+    "title": "Every line, one standard.",
+    "intro": "Explore the Winston range available in Iran. Product packaging and specifications are preserved exactly as approved for the local market.",
+    "viewDetails": "View details",
+    "backToProducts": "Back to all products",
+    "specs": "Specifications",
+    "gallery": "Gallery",
+    "relatedTitle": "You may also like"
+  },
+  "news": {
+    "eyebrow": "News & Articles",
+    "title": "Stories from Winston",
+    "intro": "The latest updates, campaigns, and articles from Winston Iran.",
+    "readMore": "Read more",
+    "backToNews": "Back to news",
+    "publishedOn": "Published on"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "We'd love to hear from you.",
+    "intro": "For questions about our products, distribution, or this website, reach out using the form below or our contact details.",
+    "form": {
+      "name": "Full name",
+      "email": "Email address",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send message",
+      "success": "Thank you — your message has been received.",
+      "ageConfirm": "I confirm that I am of legal smoking age.",
+      "errors": {
+        "name": "Please enter your name.",
+        "email": "Please enter a valid email address.",
+        "subject": "Please enter a subject.",
+        "message": "Please enter a message (minimum 10 characters).",
+        "age": "You must confirm you are of legal smoking age."
+      }
+    },
+    "info": {
+      "title": "Contact information",
+      "address": "Tehran, Iran",
+      "email": "info@winston-iran.example",
+      "phone": "+98 21 0000 0000"
+    }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Frequently asked questions",
+    "intro": "Answers to common questions about Winston products and this website.",
+    "items": [
+      {
+        "question": "Where can I purchase Winston products?",
+        "answer": "Winston products are available through licensed tobacconists and retailers across Iran. This website does not sell products directly."
+      },
+      {
+        "question": "How can I verify a product is authentic?",
+        "answer": "Authentic Winston packs carry official tax stamps and packaging markings as required by Iranian regulation. Contact us if you have concerns about a specific product."
+      },
+      {
+        "question": "Does this website sell tobacco products online?",
+        "answer": "No. This website provides brand and product information only. It does not process online sales of tobacco products."
+      },
+      {
+        "question": "Who can view this website?",
+        "answer": "This website is intended exclusively for adults of legal smoking age. An age verification check is required before viewing site content."
+      },
+      {
+        "question": "How do I report an issue with the website?",
+        "answer": "Please use the contact form to report any technical issues, and our team will respond as soon as possible."
+      }
+    ]
+  },
+  "legal": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "updated": "Last updated: 2026"
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "updated": "Last updated: 2026"
+    },
+    "cookies": {
+      "title": "Cookie Policy",
+      "updated": "Last updated: 2026"
+    },
+    "age": {
+      "title": "Age Verification Policy",
+      "updated": "Last updated: 2026"
+    }
+  },
+  "common": {
+    "learnMore": "Learn more",
+    "explore": "Explore",
+    "adultsOnly": "For adults of legal smoking age only."
+  }
+}
